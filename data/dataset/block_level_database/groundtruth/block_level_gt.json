@@ -1,0 +1,236 @@
+[
+{
+    "filename1": "googlejam1.p003.Mushroom.java",
+    "code1": "int ans1 = 0;int speed = 0;for (int i = 0; i + 1 < N; i++) {    if (A[i + 1] < A[i]) {        ans1 += A[i] - A[i + 1];        speed = Math.max(speed, A[i] - A[i + 1]);    }}int ans2 = 0;for (int i = 0; i + 1 < N; i++) {    ans2 += Math.min(A[i], speed);}",
+    "filename2": "googlejam1.p006.A.java",
+    "code2": "long ans1 = 0;for (int i = 0; i < N - 1; i++) {    ans1 += max(0, M[i] - M[i+1]);}long max = 0;for (int i = 0; i < N - 1; i++) {    max = max(max, M[i] - M[i+1]);}long ans2 = 0;for (int i = 0; i < N - 1; i++)    ans2 += min(max, M[i]);"
+},
+{
+    "filename1": "googlejam1.p006.A.java",
+    "code1": "long ans1 = 0;for (int i = 0; i < N - 1; i++) {    ans1 += max(0, M[i] - M[i+1]);}long max = 0;for (int i = 0; i < N - 1; i++) {    max = max(max, M[i] - M[i+1]);}long ans2 = 0;for (int i = 0; i < N - 1; i++)    ans2 += min(max, M[i]);",
+    "filename2": "googlejam1.p011.taskA.java",
+    "code2": "int y = 0; int z = 0; int minS = 0; for (int i3 = 1; i3 < n1; i3++) { if (a[i3] < a[i3 - 1]) { y += a[i3 - 1] - a[i3]; minS = Math.max(minS, a[i3 - 1] - a[i3]); } } for (int i1 = 0; i1 < n1 - 1; i1++) { z += Math.min(a[i1], minS); } r.out.println(y + \" \" + z);"
+},
+{
+    "filename1": "googlejam1.p006.A.java",
+    "code1": "long ans1 = 0;for (int i = 0; i < N - 1; i++) {    ans1 += max(0, M[i] - M[i+1]);}long max = 0;for (int i = 0; i < N - 1; i++) {    max = max(max, M[i] - M[i+1]);}long ans2 = 0;for (int i = 0; i < N - 1; i++)    ans2 += min(max, M[i]);",
+    "filename2": "googlejam1.p012.A.java",
+    "code2": "int ret1 = 0;int abs = 0;for (int i = 0; i < n - 1; i++) {    ret1 += Math.max(0, arr[i] - arr[i + 1]);    abs = Math.max(abs, arr[i] - arr[i + 1]);}int ret2 = 0;for (int i = 0; i < n - 1; i++)    ret2 += Math.min(arr[i], abs);"
+},
+{
+    "filename1": "googlejam1.p011.taskA.java",
+    "code1": "int y = 0; int z = 0; int minS = 0; for (int i3 = 1; i3 < n1; i3++) { if (a[i3] < a[i3 - 1]) { y += a[i3 - 1] - a[i3]; minS = Math.max(minS, a[i3 - 1] - a[i3]); } } for (int i1 = 0; i1 < n1 - 1; i1++) { z += Math.min(a[i1], minS); } r.out.println(y + \" \" + z);",
+    "filename2": "googlejam1.p012.A.java",
+    "code2": "int ret1 = 0;int abs = 0;for (int i = 0; i < n - 1; i++) {    ret1 += Math.max(0, arr[i] - arr[i + 1]);    abs = Math.max(abs, arr[i] - arr[i + 1]);}int ret2 = 0;for (int i = 0; i < n - 1; i++)    ret2 += Math.min(arr[i], abs);"
+},
+{
+    "filename1": "googlejam1.p003.Mushroom.java",
+    "code1": "int ans1 = 0; int speed = 0; for (int i = 0; i + 1 < N; i++) { if (A[i + 1] < A[i]) { ans1 += A[i] - A[i + 1]; speed = Math.max(speed, A[i] - A[i + 1]); } } int ans2 = 0; for (int i = 0; i + 1 < N; i++) { ans2 += Math.min(A[i], speed); } pw.println(ans1 + \" \" + ans2);",
+    "filename2": "googlejam1.p011.taskA.java",
+    "code2": "int y = 0; int z = 0; int minS = 0; for (int i3 = 1; i3 < n1; i3++) { if (a[i3] < a[i3 - 1]) { y += a[i3 - 1] - a[i3]; minS = Math.max(minS, a[i3 - 1] - a[i3]); } } for (int i1 = 0; i1 < n1 - 1; i1++) { z += Math.min(a[i1], minS); } r.out.println(y + \" \" + z);"
+},
+{
+    "filename1": "googlejam1.p003.Mushroom.java",
+    "code1": "int ans1 = 0;int speed = 0;for (int i = 0; i + 1 < N; i++) {    if (A[i + 1] < A[i]) {        ans1 += A[i] - A[i + 1];        speed = Math.max(speed, A[i] - A[i + 1]);    }}int ans2 = 0;for (int i = 0; i + 1 < N; i++) {    ans2 += Math.min(A[i], speed);}",
+    "filename2": "googlejam1.p012.A.java",
+    "code2": "int ret1 = 0;int abs = 0;for (int i = 0; i < n - 1; i++) {    ret1 += Math.max(0, arr[i] - arr[i + 1]);    abs = Math.max(abs, arr[i] - arr[i + 1]);}int ret2 = 0;for (int i = 0; i < n - 1; i++)    ret2 += Math.min(arr[i], abs);"
+},
+{
+    "filename1": "googlejam2.p003.A.java",
+    "code1": "ans += Long.parseLong(\"0\" + new StringBuilder(s.substring(0, s.length() / 2)).reverse().toString());",
+    "filename2": "googlejam2.p008.A.java",
+    "code2": "int N1 = i;A r1 = new A();int r2 = 0;while(N1 > 0) {r2 *= 10;r2 += N1 % 10;N1 /= 10;}int r = r2;if(r <= N) {dp[r] = Math.min(dp[r], dp[i] + 1);}"
+},
+{
+    "filename1": "googlejam2.p008.A.java",
+    "code1": "int N1 = i;A r1 = new A();int r2 = 0;while(N1 > 0) {r2 *= 10;r2 += N1 % 10;N1 /= 10;}int r = r2;if(r <= N) {dp[r] = Math.min(dp[r], dp[i] + 1);}",
+    "filename2": "googlejam2.p016.A.java",
+    "code2": "int mid = s.length() / 2; String firstMid = s.substring(0, mid); firstMid = new StringBuilder(firstMid).reverse().toString(); int firstIntReverse = Integer.parseInt(firstMid); String secondMid = s.substring(mid, s.length()); int secondInt = Integer.parseInt(secondMid); if (N - Math.pow(10, s.length() - 1) < firstIntReverse + secondInt) { total += N - Math.pow(10, s.length() - 1); } else { total += firstIntReverse + secondInt + 1; }"
+},
+{
+    "filename1": "googlejam2.p008.A.java",
+    "code1": "int N1 = i;A r1 = new A();int r2 = 0;while(N1 > 0) {r2 *= 10;r2 += N1 % 10;N1 /= 10;}int r = r2;if(r <= N) {dp[r] = Math.min(dp[r], dp[i] + 1);}",
+    "filename2": "googlejam2.p016.A.java",
+    "code2": "int mid = s.length() / 2; String firstMid = s.substring(0, mid); firstMid = new StringBuilder(firstMid).reverse().toString(); int firstIntReverse = Integer.parseInt(firstMid); String secondMid = s.substring(mid, s.length()); int secondInt = Integer.parseInt(secondMid); if (N - Math.pow(10, s.length() - 1) < firstIntReverse + secondInt) { total += N - Math.pow(10, s.length() - 1); } else { total += firstIntReverse + secondInt + 1; }"
+},
+{
+    "filename1": "googlejam2.p003.A.java",
+    "code1":"String sb = \"0\" + s.substring(0, s.length() / 2); if (s.length() > 1 && Long.parseLong(sb) != POW10[s.length() / 2 - 1]) { ans += Long.parseLong(\"0\" + new StringBuilder( s.substring(0, s.length() / 2)).reverse().toString()); } ans += Long.parseLong(\"0\" + s.substring(s.length() / 2));",
+    "filename2": "googlejam2.p016.A.java",
+    "code2": "int mid = s.length() / 2; String firstMid = s.substring(0, mid); firstMid = new StringBuilder(firstMid).reverse().toString(); int firstIntReverse = Integer.parseInt(firstMid); String secondMid = s.substring(mid, s.length()); int secondInt = Integer.parseInt(secondMid); if (N - Math.pow(10, s.length() - 1) < firstIntReverse + secondInt) { total += N - Math.pow(10, s.length() - 1); } else { total += firstIntReverse + secondInt + 1; }"
+},
+{
+    "filename1": "googlejam2.p003.A.java",
+    "code1": "static long[] POW10 = new long[20];static{    POW10[0] = 1;    for (int i = 1; i < POW10.length; i++)        POW10[i] = POW10[i - 1] * 10;}",
+    "filename2": "googlejam2.p154.R1BA.java",
+    "code2": "static long[] tens = new long[] {    1L, 10L, 100L, 1000L, 10000L, 100000L, 1000000L, 10000000L,    100000000L, 1000000000L, 10000000000L, 100000000000L,    1000000000000L, 10000000000000L, 100000000000000L,    1000000000000000L};"
+},
+{
+    "filename1": "googlejam2.p003.A.java",
+    "code1": "if (zero) { l--; s = l + \"\"; } long ans = 0; for (int d = 1; d < s.length(); d++) ans += POW10[d / 2] + POW10[(d + 1) / 2] - 1; String sb = \"0\" + s.substring(0, s.length() / 2); if (s.length() > 1 && Long.parseLong(sb) != POW10[s.length() / 2 - 1]) { ans += Long.parseLong(\"0\" + new StringBuilder(s.substring(0, s.length() / 2)).reverse().toString()); } ans += Long.parseLong(\"0\" + s.substring(s.length() / 2)); if (zero) ans++;",
+    "filename2": "googlejam2.p154.R1BA.java",
+    "code2": "while(bits > 1) { if(x % 10 == 0) { x--; c++; bits = bits(x); continue; } int lb = 0; long lo = 0, hi = 0; while (lb < bits / 2) { int hb = bits - lb - 1; long l = (x % tens[lb + 1]) / tens[lb]; long h = (x % tens[hb + 1]) / tens[hb]; lo += (l * tens[lb]); hi += (h * tens[lb]); lb++; } if(lo > 1) { x -= (lo - 1); c += (lo - 1); } else { if(hi > 1) { long x2 = x; long n = 0; while (x2 > 0) { long m = x2 % 10; x2 /= 10; n = (n * 10) + m; } x = n; c++; } else { long all9 = tens[bits - 1] - 1; c += (x - all9); x = all9; bits--; } } } c += x;"
+},
+{
+    "filename1": "googlejam2.p003.A.java",
+    "code1": "String s = input.next();long l = Long.parseLong(s);boolean zero = l % POW10[s.length() / 2] == 0;if (zero){    l--;    s = l + \"\";}long ans = 0;for (int d = 1; d < s.length(); d++)    ans += POW10[d / 2] + POW10[(d + 1) / 2] - 1;String sb = \"0\" + s.substring(0, s.length() / 2);if (s.length() > 1 && Long.parseLong(sb) != POW10[s.length() / 2 - 1]){    ans += Long.parseLong(\"0\" + new StringBuilder(                s.substring(0, s.length() / 2)).reverse().toString());}ans += Long.parseLong(\"0\" + s.substring(s.length() / 2));if (zero)    ans++;",
+    "filename2": "googlejam2.p173.CounterCulture.java",
+    "code2": "StringBuilder ans = new StringBuilder();ans.append(\"Case #\"+(i+1)+\": \");int N = Integer.parseInt(sc.nextLine());int[] steps = new int[N+1];steps[0]=0;steps[1]=1;for (int j = 2; j<N+1; j++) {    if (steps[j]==0) {        steps[j] = steps[j-1] + 1;    } else {        steps[j] = Math.min(steps[j],steps[j-1]+1);    }    StringBuilder tmp = new StringBuilder(\"\"+j);    int reverse = Integer.parseInt(tmp.reverse().toString());    if (reverse>j && reverse<=N) {        if (steps[reverse]==0) {            steps[reverse]=steps[j]+1;        } else {            steps[reverse] = Math.min(steps[reverse],steps[j]+1);        }    }}ans.append(steps[N]);"
+},
+{
+    "filename1": "googlejam3.p035.CJ2015Round1CA.java",
+    "code1": "int R = Integer.parseInt(nums[0]);int C = Integer.parseInt(nums[1]);int W = Integer.parseInt(nums[2]);int rowguess = (C-W)/W;int ret = rowguess*R+R-1;ret +=W;if (C%W!=0){    ret++;}",
+    "filename2": "googlejam3.p039.A.java",
+    "code2": "int r = in.nextInt();int c = in.nextInt();int w = in.nextInt();int base = c/w;base *= r;if (c%w==0) {    base += (w-1);}else {    base += w;}"
+},
+{
+    "filename1": "googlejam3.p035.CJ2015Round1CA.java",
+    "code1": "int R = Integer.parseInt(nums[0]);int C = Integer.parseInt(nums[1]);int W = Integer.parseInt(nums[2]);int rowguess = (C-W)/W;int ret = rowguess*R+R-1;ret +=W;if (C%W!=0){    ret++;}",
+    "filename2": "googlejam3.p043.Solver.java",
+    "code2": "int rows = Integer.parseInt(values [0]);int cows = Integer.parseInt(values[1]);int w = Integer.parseInt(values[2]);int perRow = cows / w;result = perRow * rows;int currentCow = (cows / w) * w;if (currentCow == cows) {    result += (w - 1);} else {    result += w;}"
+},
+{
+    "filename1": "googlejam3.p039.A.java",
+    "code1": "int r = in.nextInt();int c = in.nextInt();int w = in.nextInt();int base = c/w;base *= r;if (c%w==0) {    base += (w-1);}else {    base += w;}",
+    "filename2": "googlejam3.p043.Solver.java",
+    "code2": "int rows = Integer.parseInt(values [0]);int cows = Integer.parseInt(values[1]);int w = Integer.parseInt(values[2]);int perRow = cows / w;result = perRow * rows;int currentCow = (cows / w) * w;if (currentCow == cows) {    result += (w - 1);} else {    result += w;}"
+},
+{
+    "filename1": "googlejam3.p039.A.java",
+    "code1": "int r = in.nextInt();int c = in.nextInt();int w = in.nextInt();int base = c/w;base *= r;if (c%w==0) {    base += (w-1);}else {    base += w;}",
+    "filename2": "googlejam3.p060.A.java",
+    "code2": "final int input_R, input_C, input_W;long nb = this.input_C / this.input_W * this.input_R;nb += this.input_W - 1;if (this.input_C % this.input_W != 0) {    nb++;}"
+},
+{
+    "filename1": "googlejam3.p039.A.java",
+    "code1": "int r = in.nextInt();int c = in.nextInt();int w = in.nextInt();int base = c/w;base *= r;if (c%w==0) {    base += (w-1);}else {    base += w;}",
+    "filename2": "googlejam3.p062.A.java",
+    "code2": "int r=in.nextInt(), c=in.nextInt(), w=in.nextInt();int extrarows=(r-1)*(c/w);int ans=c/w-1;c-=w*ans;System.out.println(\"Case #\"+run+\": \"+(ans+Math.min(w+1,c)+extrarows));"
+},
+{
+    "filename1": "googlejam3.p039.A.java",
+    "code1": "int r = in.nextInt();int c = in.nextInt();int w = in.nextInt();int base = c/w;base *= r;if (c%w==0) {    base += (w-1);}else {    base += w;}",
+    "filename2": "googlejam3.p063.Brattleship.java",
+    "code2": "int r = in.nextInt();int c = in.nextInt();int w = in.nextInt();int ans1 = 0;ans1 +=  Math.min(c%w, 1)+w + c/w-1;if (r > 1) ans1 += (r-1)*(c/w);"
+},
+{
+    "filename1": "googlejam3.p035.CJ2015Round1CA.java",
+    "code1": "int R = Integer.parseInt(nums[0]);int C = Integer.parseInt(nums[1]);int W = Integer.parseInt(nums[2]);int rowguess = (C-W)/W;int ret = rowguess*R+R-1;ret +=W;if (C%W!=0){    ret++;}",
+    "filename2": "googlejam3.p060.A.java",
+    "code2": "final int input_R, input_C, input_W;long nb = this.input_C / this.input_W * this.input_R;nb += this.input_W - 1;if (this.input_C % this.input_W != 0) {    nb++;}"
+},
+{
+    "filename1": "googlejam3.p035.CJ2015Round1CA.java",
+    "code1": "int R = Integer.parseInt(nums[0]);int C = Integer.parseInt(nums[1]);int W = Integer.parseInt(nums[2]);int rowguess = (C-W)/W;int ret = rowguess*R+R-1;ret +=W;if (C%W!=0){    ret++;}",
+    "filename2": "googlejam3.p062.A.java",
+    "code2": "int r=in.nextInt(), c=in.nextInt(), w=in.nextInt();int extrarows=(r-1)*(c/w);int ans=c/w-1;c-=w*ans;System.out.println(\"Case #\"+run+\": \"+(ans+Math.min(w+1,c)+extrarows));"
+},
+{
+    "filename1": "googlejam3.p035.CJ2015Round1CA.java",
+    "code1": "int R = Integer.parseInt(nums[0]);int C = Integer.parseInt(nums[1]);int W = Integer.parseInt(nums[2]);int rowguess = (C-W)/W;int ret = rowguess*R+R-1;ret +=W;if (C%W!=0){    ret++;}",
+    "filename2": "googlejam3.p063.Brattleship.java",
+    "code2": "int r = in.nextInt();int c = in.nextInt();int w = in.nextInt();int ans1 = 0;ans1 +=  Math.min(c%w, 1)+w + c/w-1;if (r > 1) ans1 += (r-1)*(c/w);"
+},
+{
+    "filename1": "googlejam3.p060.A.java",
+    "code1": "final int input_R, input_C, input_W;long nb = this.input_C / this.input_W * this.input_R;nb += this.input_W - 1;if (this.input_C % this.input_W != 0) {    nb++;}",
+    "filename2": "googlejam3.p063.Brattleship.java",
+    "code2": "int r = in.nextInt();int c = in.nextInt();int w = in.nextInt();int ans1 = 0;ans1 +=  Math.min(c%w, 1)+w + c/w-1;if (r > 1) ans1 += (r-1)*(c/w);"
+},
+{
+    "filename1": "googlejam3.p060.A.java",
+    "code1": "final int input_R, input_C, input_W;long nb = this.input_C / this.input_W * this.input_R;nb += this.input_W - 1;if (this.input_C % this.input_W != 0) {    nb++;}",
+    "filename2": "googlejam3.p062.A.java",
+    "code2": "int r=in.nextInt(), c=in.nextInt(), w=in.nextInt();int extrarows=(r-1)*(c/w);int ans=c/w-1;c-=w*ans;System.out.println(\"Case #\"+run+\": \"+(ans+Math.min(w+1,c)+extrarows));"
+},
+{
+    "filename1": "googlejam3.p060.A.java",
+    "code1": "final int input_R, input_C, input_W;long nb = this.input_C / this.input_W * this.input_R;nb += this.input_W - 1;if (this.input_C % this.input_W != 0) {    nb++;}",
+    "filename2": "googlejam3.p043.Solver.java",
+    "code2": "int rows = Integer.parseInt(values [0]);int cows = Integer.parseInt(values[1]);int w = Integer.parseInt(values[2]);int perRow = cows / w;result = perRow * rows;int currentCow = (cows / w) * w;if (currentCow == cows) {    result += (w - 1);} else {    result += w;}"
+},
+{
+    "filename1": "googlejam4.p007.A.java",
+    "code1": "for (int d = 0; d < 4; d++) { for (int i = 0; i < r.R; i++) { for (int j = 0; j < r.C; j++) { int i1 = i - r.dx[d]; int i2 = j - r.dy[d]; if ((i == 0 || i == r.R - 1 || j == 0 || j == r.C - 1) && (!(0 <= i1 && i1 <= r.R - 1) || !(0 <= i2 && i2 <= r.C - 1))) { int x = i, y = j; while (0 <= x && x <= r.R - 1 && 0 <= y && y <= r.C - 1) { if (r.cs[x][y] != '.') { dame[x][y][d] = true; break; } x += r.dx[d]; y += r.dy[d]; } } } } }",
+    "filename2": "googlejam4.p015.A.java",
+    "code2": "for (int d = 0; d < 4; d++) { int nr = r + dr[d]; int nc = c + dc[d]; ok[d] = false; while (0 <= nr && nr < R && 0 <= nc && nc < C) { if (G[nr][nc] != EMPTY) { ok[d] = true; any = true; break; } nr += dr[d]; nc += dc[d]; } }"
+},
+{
+    "filename1": "googlejam4.p007.A.java",
+    "code1": "for (int i = 0; i < r.R; i++) for (int j = 0; j < r.C; j++) if (r.cs[i][j] != '.') { boolean ok = true, can = false; for (int k = 0; k < 4; k++) { if (r.cs[i][j] == r.D[k] && dame[i][j][k]) ok = false; if (!dame[i][j][k]) can = true; } if (!ok) res++; if (!can) impossible = true; }",
+    "filename2": "googlejam4.p071.ProbA.java",
+    "code2": "for (int i = 0; i < R; i++) for (int j = 0; j < C; j++) { if (restrictions[i][j].size() == 4) { count = Long.MAX_VALUE; break LOOP; } else if (restrictions[i][j].contains(board[i][j])) count++; }"
+},
+{
+    "filename1": "googlejam6.p009.B.java",
+    "code1": "int[] counts =  new int[2501];for (int i = 0; i < 2*N-1; i++) {    for (int j = 0; j < N; j++) {        counts[qwe.nextInt()]++;    }}for (int i = 0; i < counts.length; i++) {    if(counts[i] % 2 == 1) out.print(i+\" \");}",
+    "filename2": "googlejam6.p010.B.java",
+    "code2": "Map<Integer, Integer> counts = new HashMap<>();for (int i = 0; i < 2 * N - 1; i++) {    for (int j = 0; j < N; j++) {        int height = sc.nextInt();        if (counts.containsKey(height)) {            counts.put(height, counts.get(height) + 1);        } else {            counts.put(height, 1);        }    }}List<Integer> heights = new ArrayList<>();for (Map.Entry<Integer, Integer> entry : counts.entrySet()) {    if (entry.getValue() % 2 != 0) {        heights.add(entry.getKey());    }}Collections.sort(heights);for (int h : heights) {    System.out.print(\" \" + h);}"
+},
+{
+    "filename1": "googlejam6.p009.B.java",
+    "code1": "int[] counts =  new int[2501];for (int i = 0; i < 2*N-1; i++) {    for (int j = 0; j < N; j++) {        counts[qwe.nextInt()]++;    }}for (int i = 0; i < counts.length; i++) {    if(counts[i] % 2 == 1) out.print(i+\" \");}",
+    "filename2": "googlejam6.p024.GCJ.java",
+    "code2": "int[] count = new int[2501];for (int i = 0; i < 2 * n - 1; i++) {    for (int j = 0; j < n; j++) {        int x = sc.nextInt();        count[x]++;    }}for (int i = 0; i < count.length; i++)    if (count[i] % 2 == 1) fout.print(\" \" + i);fout.println();fout.flush();"
+},
+{
+    "filename1": "googlejam6.p009.B.java",
+    "code1": "int N = qwe.nextInt();int[] counts =  new int[2501];for (int i = 0; i < 2*N-1; i++) {    for (int j = 0; j < N; j++) {        counts[qwe.nextInt()]++;    }}out.print(\"Case #\" + cse + \": \");for (int i = 0; i < counts.length; i++) {    if(counts[i] % 2 == 1) out.print(i + \" \");}out.println();",
+    "filename2": "googlejam6.p026.B.java",
+    "code2": "int[] count = new int[2501];N = scan.nextInt();grid = new int[N][N];inputs = new int[2*N-1][N];for (int i = 0 ; i < 2*N-1; i++) {    for (int j = 0; j < N; j++) {        inputs[i][j] = scan.nextInt();        count[inputs[i][j]]++;    }}System.out.print(\"Case #\" + z + \":\");for (int i = 0; i < count.length; i++) {    if (count[i] % 2 != 0) {        System.out.print(\" \" + i);    }}System.out.println();"
+},
+{
+    "filename1": "googlejam6.p009.B.java",
+    "code1": "for (int i = 0; i < 2*N-1; i++) {for (int j = 0; j < N; j++) {counts[qwe.nextInt()]++;}",
+    "filename2": "googlejam6.p026.B.java",
+    "code2": "for(int i=0; i<(2*n)-1; i++){for(int j=0; j<n; j++){heights[in.nextInt()]++;}}"
+},
+{
+    "filename1": "googlejam7.p055.ProblemBLarge.java",
+    "code1": "BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(\"B-large.in\")));String line = br.readLine();int T = Integer.parseInt(line);PrintWriter pw = new PrintWriter(\"B-large.out\");for (int test = 0; test < T; test++) {    line = br.readLine();    char[] chars = line.toCharArray();    int count = 0;    for (int i = 1; i < chars.length; i++) {        if (chars[i] != chars[i-1]) {            count++;        }    }    if (chars[chars.length - 1] == '-') {        count++;    }    pw.println(\"Case #\" + (test + 1) + \": \" + count);}pw.close();br.close();",
+    "filename2": "googlejam7.p193.R1BB.java",
+    "code2": "Scanner scan = new Scanner(System.in);int nCases = scan.nextInt();for (int z = 0; z < nCases; z++) {    String a = scan.next(), b = scan.next();    int len = a.length();    int[] digits = new int[2*len];    ArrayList<Integer> questionPos = new ArrayList<Integer>();    for (int i = 0; i < len; i++) {        int aPos = len-1 - i + len, bPos = len-1 - i;        if (a.charAt(i) != '?') {            digits[aPos] = a.charAt(i) - '0';        } else {            questionPos.add(aPos);        }        if (b.charAt(i) != '?') {            digits[bPos] = b.charAt(i) - '0';        } else {            questionPos.add(bPos);        }    }    Collections.sort(questionPos);    int nQuestions = questionPos.size();    int[] questions = new int[nQuestions];    int bestDiff = 9999;    int bestX = -1, bestY = -1;    outer: while (true) {        for (int i = 0; i < nQuestions; i++) {           digits[questionPos.get(i)] = questions[i];        }int x = 0, y = 0, place = 1;        for (int i = 0; i < len; i++) {            x += digits[i + len] * place;            y += digits[i] * place;            place *= 10;        }        if (Math.abs(x - y) < bestDiff) {            bestDiff = Math.abs(x - y);            bestX = x;            bestY = y;        }        questions[0]++;        for (int i = 0; questions[i] == 10; i++) {            if (i == nQuestions - 1) {                break outer;            }            questions[i] = 0;            questions[i+1]++;        }    }    String temp = \"%0\" + len + \"d\";    System.out.printf(\"Case #%d: \" + temp + \" \" + temp + \"\n\", z + 1, bestX, bestY);}scan.close();"
+},
+{
+    "filename1": "googlejam7.p212.Solution.java",
+    "code1": "if(minDiff > valueDiff){minDiff = valueDiff;cTarget = cStr;jTarget = jStr;}",
+    "filename2": "googlejam7.p193.R1BB.java",
+    "code2": "if (Math.abs(x - y) < bestDiff) {bestDiff = Math.abs(x - y);bestX = x;bestY = y;}"
+},
+{
+    "filename1": "googlejam11.p071.B.java",
+    "code1": "for (int m = 0; m < (1 << n); m++) {    if (Integer.bitCount(m) != k) continue;    double[] A = new double[k / 2 + 1];    A[0] = 1;    for (int i = 0; i < n; i++) {        if ((m & (1 << i)) == 0) continue;        double x = P[i];        double[] NA = new double[n];        for (int j = 0; j < A.length; j++) {            NA[j] = A[j] * (1 - x);            if (j > 0) NA[j] += A[j - 1] * x;        }        A = NA;    }    res1 = max(res1, A[k / 2]);}",
+    "filename2": "googlejam11.p093.bsmall.java",
+    "code2": "for (int i = 1; i < (1 << n); i++) {            if (Integer.bitCount(i) != k) continue;    double tmp = 0;    for (int mask = i; mask > 0; mask = ((mask - 1) & i)) {                if (Integer.bitCount(mask) != k / 2) continue;                double thisP = 1;        for (int j = 0; j < n; j++) {            if ((mask & (1 << j)) > 0)                thisP = thisP * p[j];            else if ((i & (1 << j)) > 0)                thisP = thisP * (1 - p[j]);        }        tmp += thisP;    }    res = Math.max(res, tmp);}"
+},
+{
+    "filename1": "googlejam11.p093.bsmall.java",
+    "code1": "for (int i = 1; i < (1 << n); i++) {            if (Integer.bitCount(i) != k) continue;    double tmp = 0;    for (int mask = i; mask > 0; mask = ((mask - 1) & i)) {                if (Integer.bitCount(mask) != k / 2) continue;                double thisP = 1;        for (int j = 0; j < n; j++) {            if ((mask & (1 << j)) > 0)                thisP = thisP * p[j];            else if ((i & (1 << j)) > 0)                thisP = thisP * (1 - p[j]);        }        tmp += thisP;    }    res = Math.max(res, tmp);}",
+    "filename2": "googlejam11.p139.Main_Round2_2016_B.java",
+    "code2": "for (int i = 0; i < 0x1 << n; i++) {    if (Integer.bitCount(i) != k) {        continue;    }    List<Double> pp = new ArrayList<>();    for (int j = 0; j < n; j++) {        if ((i & 0x1 << j) != 0) {            pp.add(p[j]);        }    }    double tmp2 = 0;    for (int j = 0; j < 0x1 << k; j++) {        if (Integer.bitCount(j) != k / 2) {            continue;        }        double tmp = 1;        for (int l = 0; l < k; l++) {            if ((j & 0x1 << l) == 0) {                tmp *= (1 - pp.get(l));            } else {                tmp *= pp.get(l);            }        }        tmp2 += tmp;    }    max = Math.max(max, tmp2);}"
+},
+{
+    "filename1": "googlejam11.p071.B.java",
+    "code1": "for (int m = 0; m < (1 << n); m++) {    if (Integer.bitCount(m) != k) continue;    double[] A = new double[k / 2 + 1];    A[0] = 1;    for (int i = 0; i < n; i++) {        if ((m & (1 << i)) == 0) continue;        double x = P[i];        double[] NA = new double[n];        for (int j = 0; j < A.length; j++) {            NA[j] = A[j] * (1 - x);            if (j > 0) NA[j] += A[j - 1] * x;        }        A = NA;    }    res1 = max(res1, A[k / 2]);}",
+    "filename2": "googlejam11.p139.Main_Round2_2016_B.java",
+    "code2": "for (int i = 0; i < 0x1 << n; i++) {    if (Integer.bitCount(i) != k) {        continue;    }    List<Double> pp = new ArrayList<>();    for (int j = 0; j < n; j++) {        if ((i & 0x1 << j) != 0) {            pp.add(p[j]);        }    }    double tmp2 = 0;    for (int j = 0; j < 0x1 << k; j++) {        if (Integer.bitCount(j) != k / 2) {            continue;        }        double tmp = 1;        for (int l = 0; l < k; l++) {            if ((j & 0x1 << l) == 0) {                tmp *= (1 - pp.get(l));            } else {                tmp *= pp.get(l);            }        }        tmp2 += tmp;    }    max = Math.max(max, tmp2);}"
+},
+{
+    "filename1": "googlejam11.p139.Main_Round2_2016_B.java",
+    "code1": "for (int i = 0; i < n; i++) {p[i] = sc.nextDouble();}",
+    "filename2": "googlejam1.p003.Mushroom.java",
+    "code2": "for (int i = 0; i < N; i++) {A[i] = sc.nextInt();}"
+},
+{
+    "filename1": "googlejam11.p139.Main_Round2_2016_B.java",
+    "code1": "for (int i1 = 0; i1 < n1 - 1; i1++) {//System.err.println(a[i] + \" \" + minS);z += Math.min(a[i1], minS);}",
+    "filename2": "googlejam1.p003.Mushroom.java",
+    "code2": "for (int i = 0; i + 1 < N; i++) {ans2 += Math.min(A[i], speed);}"
+},
+{
+    "filename1": "googlejam4.p096.Pegman.java",
+    "code1": "while(cx>=0&&cx<R&&cy>=0&&cy<C){if(arr[cx][cy]!='.'){found=true;break;}cx+=dx[dn];cy+=dy[dn];}",
+    "filename2": "googlejam4.p015.A.java",
+    "code2": "while (0 <= nr && nr < R && 0 <= nc && nc < C) {if (G[nr][nc] != EMPTY) {ok[d] = true;any = true;break;}nr += dr[d];nc += dc[d];}"
+}
+]

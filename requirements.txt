@@ -1,0 +1,11 @@
+faiss-cpu
+javalang
+numpy
+openai
+pandas
+pygments
+torch
+tqdm
+transformers
+chardet
+regex
